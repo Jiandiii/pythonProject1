@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a27a6e3c-c4d6-4dfd-b452-a59baa12686b" name="myproject">
+        <fileTransfer rootFolder="/D:/projects/pythonProject1" accessType="SFTP" host="hz-t3.matpool.com" port="27769" sshConfigId="9ec418ee-4bd6-4455-af2f-9488c60ddfac" sshConfig="root@hz-t3.matpool.com:27769 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

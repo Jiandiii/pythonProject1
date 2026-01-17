@@ -1,0 +1,18 @@
+torch==2.1.1
+dgl==2.2.1+cu118 -f https://data.dgl.ai/wheels/cu118/repo.html
+torch-geometric==2.5.2
+torch-scatter -f https://data.pyg.org/whl/torch-2.1.1+cu118.html
+torch-sparse -f https://data.pyg.org/whl/torch-2.1.1+cu118.html
+torch-cluster -f https://data.pyg.org/whl/torch-2.1.1+cu118.html
+torch-spline-conv -f https://data.pyg.org/whl/torch-2.1.1+cu118.html
+faiss-gpu==1.9.0
+xlsxwriter==3.1.1
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+networkx==3.3
+matplotlib
+scikit-learn
+tqdm
+ogb
+pyyaml

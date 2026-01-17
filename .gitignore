@@ -1,0 +1,36 @@
+# Data folders
+arxiv/
+class_confusion/
+dataset/
+feature_based/
+new/
+new_pair/
+proteins/
+products/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Model weights and logs
+*.pth
+*.log
+output*
+saved_model_weights/
+teacher_models/
+summary_results/
+
+# Other
+.DS_Store
+.vscode/
+.idea/
+tmp/
+_/

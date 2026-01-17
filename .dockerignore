@@ -1,0 +1,17 @@
+.git
+.idea
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.vscode
+dataset/
+output/
+saved_model_weights/
+teacher_models/
+*.log
+*.bat
+*.npz
+*.pt
+*.csv

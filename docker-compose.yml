@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  gnn-project:
+    build: .
+    container_name: gnn_container
+    volumes:
+      - .:/app
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:19000
+    stdin_open: true
+    tty: true
+    command: /bin/bash
